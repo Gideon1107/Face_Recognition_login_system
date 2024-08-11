@@ -110,6 +110,8 @@ class App:
         self.user_dashboard.destroy()
         # self.main_window.destroy()
 
+
+
     def register_new_user(self):
         self.register_new_user_window = tk.Toplevel(self.main_window)
         self.register_new_user_window.geometry("1000x520+180+120")
